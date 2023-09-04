@@ -8,11 +8,7 @@ const TextOverlay = ({text,position, onDrag, onResize}) => {
     const [editableText, setEditableText] = useState(text);
     const [isEditing, setIsEditing] = useState(false);
   
-    const handleDrag = (e, data) => {
-      // Handle your custom logic while dragging here
-      // For example, you can update the position of the text overlay
-      // based on the drag data
-    };
+    
   
     const handleTextDoubleClick = () => {
       setIsEditing(true);
@@ -42,9 +38,6 @@ const TextOverlay = ({text,position, onDrag, onResize}) => {
         {isEditing ? (
           <input
            style={{
-                
-               
-               
                 fontSize: '3rem', 
               }}
             type="text"

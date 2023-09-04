@@ -72,8 +72,7 @@ const App = () => {
           setTextOverlays(updatedOverlays);
         }}
         onResize={(size) => {
-          // Handle resizing if needed
-          // You can access the width and height of the resized overlay via the 'size' parameter
+          
           console.log(`Resized to width: ${size.width}, height: ${size.height}`);
         }}
       />
