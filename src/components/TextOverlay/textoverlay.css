@@ -1,0 +1,6 @@
+.text-overlay{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    font-size: 2rem;
+}
