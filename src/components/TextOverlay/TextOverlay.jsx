@@ -24,7 +24,7 @@ const TextOverlay = ({text,position, onDrag, onResize}) => {
     const fontSize=3;
   
     return (
-        <Draggable defaultPosition={position} onDrag={handleDrag}>
+        <Draggable defaultPosition={position} >
       <div
         style={{
           position: 'absolute',
